@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gabarito', cursive;
+}
+
+body{
+    background-image: url("/img/cloud.png");
+    background-size: 100%;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-box{
+    background: #0a5d69;
+    border-radius: 25px;
+    opacity: 0.8;
+    padding: 20px;
+    width: 95%;
+    max-width: 400px;
+}
+
+.box2{
+    display: flex;
+    color: aliceblue;
+    align-items: center;
+
+}
+
+.city{
+    color: aliceblue;
+    font-size: 30px;
+    font-weight: 300;
+    margin-top: 10px;
+}
+
+.temp{
+    font-size: 20px;
+    color: aliceblue;
+    margin-top: 10px;
+}
+
+.prev{
+    text-transform: capitalize;
+}
+
+.img-search{
+    width: 20px;
+}
+
+.btn-search{
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 10px;
+    background-color:rgb(37, 37, 37);
+    cursor: pointer;
+    float: right;
+    
+}
+
+input{
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 25px;
+    font-size: 15px;
+    background:rgb(37, 37, 37);
+    color: white;
+    width: calc(100% - 60px);
+}
+
+
+
