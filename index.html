@@ -8,14 +8,15 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Gabarito&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles/background.css">
+    <link rel="stylesheet" href="styles/background.css"> 
     <link rel="icon" href="img/favicon.ico" type="image/x-icon">
     <script src="scripts/script.js"></script>
     
     <title>Weather</title>
 </head>
-<body style="background-color: rgb(114, 114, 114);">
+<body>
 
+   <!--Background styles-->
     <div class="bg-animation">
         <div id="stars"></div>
         <div id="stars2"></div>
@@ -23,7 +24,12 @@
         <div id="stars4"></div>
     </div>
 
+    <!--Main content-->
     <div class="main-box">
+        <div class="weather-text">
+            <p>Welcome to Wea-ther!</p>
+        </div>
+
         <input id="enter" class="input-city" placeholder="Search your city">
         <button onclick="btnsearch()" class="btn-search"> <img class="img-search" src="https://www.svgrepo.com/show/488200/find.svg" alt="Search"></button> 
         
@@ -37,8 +43,7 @@
             <p class="prev">Weather</p>
         </div>
     </div>
-      
-    
+
     
 </body>
 </html>
