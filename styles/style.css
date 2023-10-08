@@ -6,7 +6,9 @@
 }
 
 body {
-    background-image: url("/img/snow.png");
+    background-image: url("https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-weather/draw1.webp");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -20,7 +22,7 @@ body {
     opacity: 0.9;
     padding: 20px;
     width: 90%;
-    max-width: 400px;
+    max-width: 300px;
 }
 
 .box2{
@@ -73,32 +75,13 @@ input{
     width: calc(100% - 60px);
 }
 
-.weather-text{
-    
-}
-
-
-/* Responsive BG for smartphones*/
-@media (max-width: 768px) {
-    body {
-        background-size: 100% 100%; /* ou outra configuração desejada para dispositivos móveis */
-        background-repeat: no-repeat;
-    }
-}
-
-/* Responsive BG for tablets e desktops */
-@media (min-width: 769px) {
-    body {
-        background-size: 100% 100%; /* ou outra configuração desejada para dispositivos móveis */
-        background-repeat: no-repeat;
-    }
-}
 
 /* Responsive for tablets */
 @media (max-width: 768px) {
     .main-box {
         width: 75%;
-        max-width: 300px;
+        background-repeat: no-repeat;
+
     }
 }
 
@@ -106,7 +89,6 @@ input{
 @media (max-width: 576px) {
     .main-box {
         width: 75%;
-        max-width: none;
 
     }
 }
