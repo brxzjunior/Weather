@@ -5,9 +5,13 @@
     font-family: 'Gabarito', cursive;
 }
 
+html, body {
+    overflow: hidden;
+}
+
 body {
     background-image: url("https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-weather/draw1.webp");
-    background-size: 100% 100%;
+    background-size: cover;
     background-repeat: no-repeat;
     width: 100vw;
     height: 100vh;
@@ -16,63 +20,77 @@ body {
     align-items: center;
 }
 
-.main-box{
-    background: #0b7d83;
+.container{
+    background: #055996;
     border-radius: 25px;
-    opacity: 0.9;
+    padding: 20px;
+    max-width: 300px;
+}
+
+.main-box{
+    background: #b3d6ec;
+    border-radius: 25px;
     padding: 20px;
     width: 90%;
     max-width: 300px;
 }
 
-.box2{
-    display: flex;
-    color: aliceblue;
-    align-items: center;
-
-}
-
 .city{
-    color: aliceblue;
+    color: rgb(52, 59, 65);
     font-size: 30px;
     font-weight: 300;
-    margin-top: 10px;
+    margin-top: 15px;
 }
 
 .temp{
     font-size: 20px;
-    color: aliceblue;
-    margin-top: 10px;
+    color: rgb(43, 48, 53);
+    margin: auto;
 }
 
 .prev{
     text-transform: capitalize;
 }
 
-.img-search{
+.icons{
     width: 20px;
+}
+
+.weather-icon{
+    width: 50px;
+    height: 50px;
+    margin-bottom: 5px;
 }
 
 .btn-search{
     border: none;
     outline: none;
-    padding: 10px;
+    padding: 8px;
     border-radius: 10px;
-    background-color:#ADD8E6;
+    background-color:#dfdfd9fa;
     cursor: pointer;
-    float: right;
-    
+}
+
+.btn-voice{
+    border: none;
+    outline: none;
+    padding: 8px;
+    border-radius: 10px;
+    background-color:#dfdfd9fa;
+    cursor: pointer; 
+    margin: auto 1px; 
 }
 
 input{
     border: none;
     outline: none;
-    padding: 10px;
+    padding: 8px;
     border-radius: 25px;
-    font-size: 15px;
-    background:#ADD8E6;
+    font-size: 18px;
+    background:#dfdfd9fa;
     color: #818589;
-    width: calc(100% - 60px);
+    width: calc(100% - 90px);
+    margin-right: 5px;
 }
 
 

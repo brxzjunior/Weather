@@ -3,47 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--CDN Links-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Gabarito&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Gabarito&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles/background.css"> 
+    
+    <!--Styles-->
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/bganimation.css">
     <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+
+    <!--Scripts-->
     <script src="scripts/script.js"></script>
     
     <title>Weather</title>
 </head>
 <body>
-
-   <!--Background styles-->
-    <div class="bg-animation">
-        <div id="stars"></div>
-        <div id="stars2"></div>
-        <div id="stars3"></div>
-        <div id="stars4"></div>
-    </div>
-
-    <!--Main content-->
-    <div class="main-box">
-        <div>
-            <p>Welcome to Wea-ther!</p>
+        <!--Main content-->
+        <div class="main-box">
+            <div>
+                <p>Welcome to Wea-ther!</p>
+                <input id="enter" id="resultSpeak" class="input-city" placeholder="Search your city">
+                <button onclick="btnsearch()" class="btn-search"> <img class="icons" src="https://www.svgrepo.com/show/488200/find.svg" alt="Search"></button>
+                <button id="speakBtn" class="btn-voice"> <img class="icons" src="img/audio.svg" alt="Search"></button>            
+                <h2 class="city"> City </h2>
+                <p class="temp"> 00°C </p>
+                <img class="weather-icon" src="https://openweathermap.org/img/wn/04n.png" alt="Clouds"> 
+                <p class="prev"> Weather </p>
+            </div>
         </div>
 
-        <input id="enter" class="input-city" placeholder="Search your city">
-        <button onclick="btnsearch()" class="btn-search"> <img class="img-search" src="https://www.svgrepo.com/show/488200/find.svg" alt="Search"></button> 
-        
-        <div class="box1">    
-            <h2 class="city">City</h2>
-            <p class="temp">00°C</p>
-        </div>
-
-        <div class="box2">
-            <img class="cd" src="https://openweathermap.org/img/wn/04n.png" alt="Clouds"> 
-            <p class="prev">Weather</p>
-        </div>
-    </div>
-
-    
+    <!--Scripts-->
+    <script src="scripts/voice.js" async></script>
 </body>
 </html>
