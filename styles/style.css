@@ -12,7 +12,6 @@ html, body {
 body {
     background-image: url("https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-weather/draw1.webp");
     background-size: cover;
-    background-repeat: no-repeat;
     width: 100vw;
     height: 100vh;
     display: flex;
