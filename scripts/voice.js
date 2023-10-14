@@ -6,7 +6,7 @@ if ('webkitSpeechRecognition' in window) {
     recognition.lang = 'pt-BR'
 
     recognition.onstart = function() {
-        console.log('Speech recognition started.')
+        console.log('O reconhecimento de fala foi iniciado.')
     }
 
     recognition.onresult = function(event) {
@@ -19,11 +19,11 @@ if ('webkitSpeechRecognition' in window) {
     }
 
     recognition.onerror = function(event) {
-        alert('Speech recognition error. Please try again.')
+        alert('Erro no reconhecimnento de fala! Tente novamente!')
     }
 
     recognition.onend = function() {
-        console.log('Speech recognition terminated.')
+        console.log('Reconhecimnento de fala terminou.')
     }
 
     function startSpeechRecognition() {
@@ -46,5 +46,5 @@ if ('webkitSpeechRecognition' in window) {
     const speakBtn = document.getElementById('speakBtn')
     speakBtn.addEventListener('click', startSpeechRecognition)
 } else {
-    alert('Your browser does not support the speech recognition API.')
+    alert('Seu navegador não oferece suporte ao reconhecimento de fala.')
 }
