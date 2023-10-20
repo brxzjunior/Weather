@@ -48,7 +48,7 @@ body {
     margin: auto;
 }
 
-.prev{
+.prev, .humidity{
     text-transform: capitalize;
 }
 
