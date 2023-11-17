@@ -10,3 +10,7 @@ If you are looking for an efficient and user-friendly tool to track the weather 
 
 # API Browser compatibility: https://developer.mozilla.org/en-US/docs/Web/API/SpeechRecognition#browser_compatibility
 # Website: https://wea-ther.netlify.app
+
+
+## Screen Weather App
+![weather](https://github.com/Wiliami/Weather/assets/67030481/81141c56-685e-40ac-8373-5253fdae6b15)
