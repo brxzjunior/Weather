@@ -1,6 +1,6 @@
 Weather 
 
-## Descripition Project
+## Project Description 
 
 "Wea-ter" is an innovative tool that allows users to track the weather conditions of any city. With an intuitive and user-friendly interface, users can enter the desired city name and obtain detailed information about the current weather, including temperature and humidity.
 
