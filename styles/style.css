@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Gabarito', cursive;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 html, body {
@@ -10,13 +10,16 @@ html, body {
 }
 
 body {
-    background-image: url("https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-weather/draw1.webp");
+    background-image: url('/img/encontrodasaguas.jpg');
+    margin: 0;
+    padding: 0;
     background-size: cover;
-    width: 100vw;
+    background-position: center;
     height: 100vh;
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    color: #fff;
 }
 
 .container{
@@ -27,16 +30,16 @@ body {
 }
 
 .main-box{
-    background: #b3d6ec;
-    border-radius: 25px;
+    background: #3A3B40;
+    border-radius: 18px;
     padding: 20px;
-    width: 90%;
+    width: 30rem;
     max-width: 400px;
     
 }
 
 .city{
-    color: rgb(52, 59, 65);
+    color: #fff;
     font-size: 30px;
     font-weight: 300;
     margin-top: 15px;
@@ -44,8 +47,8 @@ body {
 
 .temp{
     font-size: 20px;
-    color: rgb(43, 48, 53);
-    margin: auto;
+    color: #fff;
+    margin-top: 20px;
 }
 
 .prev, .humidity{
@@ -93,20 +96,7 @@ input{
     margin-right: 5px;
 }
 
-
-/* Responsive for tablets */
-@media (max-width: 768px) {
-    .main-box {
-        width: 75%;
-        background-repeat: no-repeat;
-
-    }
-}
-
-/* Responsive for smartphones */
-@media (max-width: 576px) {
-    .main-box {
-        width: 75%;
-
-    }
+.erroMsgs{
+    color: rgb(236, 42, 42);
+    display: none;
 }

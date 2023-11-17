@@ -6,7 +6,7 @@ function dataOnScreen(data) {
         document.querySelector(".city").innerHTML = "Clima em " + data.name
         document.querySelector(".temp").innerHTML = Math.round(data.main.temp) + "°C"
         document.querySelector(".prev").innerHTML = data.weather[0].description
-        document.querySelector(".humidity").innerHTML = data.main.humidity + "%"
+        document.querySelector(".humidity").innerHTML = data.main.humidity + "% Umidade"
         document.querySelector(".weather-icon").src = `https://openweathermap.org/img/wn/${data.weather[0].icon}.png`
     } else {
         showError.style.display = 'block';
