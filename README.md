@@ -1,6 +1,6 @@
 Weather 
 
-## Descripition Project
+## Project Description 
 
 "Wea-ter" is an innovative tool that allows users to track the weather conditions of any city. With an intuitive and user-friendly interface, users can enter the desired city name and obtain detailed information about the current weather, including temperature and humidity.
 
@@ -15,4 +15,4 @@ If you are looking for an efficient and user-friendly tool to track the weather 
 
 
 ## Screen Weather App
-![weather](https://github.com/Wiliami/Weather/assets/67030481/81141c56-685e-40ac-8373-5253fdae6b15)
+![weather](https://github.com/brxzjunior/Weather/blob/b0353ef776008a76cfc1c7c154ff1642331c51e4/Weather%20app.png)
