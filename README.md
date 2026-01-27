@@ -1,33 +1,80 @@
-# Weather ☁️
+# 🌦️ Wea-ter
 
-## Descrição do Projeto
+## 📌 Descrição do Projeto
 
-O **Wea-ter** é uma ferramenta inovadora que permite aos usuários acompanhar as condições climáticas de qualquer cidade.
+O **Wea-ter** é uma aplicação web que permite ao usuário pesquisar o clima de qualquer cidade e visualizar as condições atuais — como **temperatura**, **umidade** e descrição do tempo — com uma interface **simples e intuitiva**.
 
-Com uma interface intuitiva e fácil de usar, o usuário pode informar o nome da cidade desejada e obter informações detalhadas sobre o clima atual, incluindo **temperatura** e **umidade**.
+Uma das principais funcionalidades é a **busca por voz**: em vez de digitar o nome da cidade, o usuário pode falar diretamente para obter as informações meteorológicas. Isso torna a experiência mais acessível e moderna.
 
-O grande diferencial do projeto é a **busca por voz**, que permite ao usuário simplesmente falar o nome da cidade, sem precisar digitar. Isso torna a experiência mais prática e acessível, principalmente para quem prefere interagir com a tecnologia por comandos de voz.
-
-Com a busca por voz, é possível obter informações climáticas instantaneamente, tornando o processo ainda mais rápido e simples.
-
-O repositório **Wea-ter** no GitHub é um projeto **open source**, permitindo que a comunidade contribua com melhorias e novas funcionalidades. A documentação e os exemplos de código facilitam o entendimento do funcionamento do projeto e incentivam a colaboração.
-
-Se você procura uma ferramenta eficiente, moderna e fácil de usar para acompanhar o clima de qualquer cidade, o **Wea-ter** é a escolha ideal. Experimente agora e não seja mais pego de surpresa pelo tempo!
+O projeto é **open source** e desenvolvido com tecnologias web tradicionais, facilitando contribuições da comunidade e aprendizado para novos desenvolvedores.
 
 ---
 
-## 🌐 Compatibilidade da API (Busca por Voz)
+## 🛠️ Tecnologias Usadas
 
-👉 https://developer.mozilla.org/en-US/docs/Web/API/SpeechRecognition#browser_compatibility
+Este projeto é construído com:
+
+- **HTML5** – estrutura da interface
+- **CSS3** – estilos visuais e responsividade
+- **JavaScript (Vanilla)** – lógica de funcionamento, requisições e DOM
+- **Web Speech API** – recurso de reconhecimento de voz para buscar cidades por comando de voz
+- **Fetch API** – para requisições em tempo real à API de clima
+- **Netlify** – hospedagem do site  
+(Links e dependências diretamente no repositório) :contentReference[oaicite:0]{index=0}
 
 ---
 
-## 🔗 Website
+## 🚀 Funcionalidades
+
+✔️ Busca de clima por **texto**  
+✔️ Busca de clima por **voz** (voz para texto)  
+✔️ Mostra **temperatura** atual  
+✔️ Mostra **umidade**  
+✔️ Interface responsiva para dispositivos móveis  
+✔️ Deploy automático com Netlify :contentReference[oaicite:1]{index=1}
+
+---
+
+## 🧠 Como Funciona
+
+1. O usuário digita ou usa o botão de voz para informar a cidade.  
+2. O app usa a **API de clima** para buscar dados atualizados.  
+3. Os dados são exibidos na tela em tempo real com temperatura e umidade.  
+4. A busca por voz usa a **Web Speech API** para transformar fala em texto automaticamente. :contentReference[oaicite:2]{index=2}
+
+---
+
+## 📌 Compatibilidade da Busca por Voz
+
+Antes de usar a voz, veja se o navegador suporta a API:  
+👉 https://developer.mozilla.org/en-US/docs/Web/API/SpeechRecognition#browser_compatibility  
+(A página mostra quais navegadores conseguem usar reconhecimento de voz) :contentReference[oaicite:3]{index=3}
+
+---
+
+## 📍 Link do Website
 
 👉 https://wea-ther.netlify.app
 
 ---
 
-## 📸 Tela do Aplicativo
+## 📸 Tela do App
 
-![Weather App](https://github.com/brxzjunior/Weather/blob/b0353ef776008a76cfc1c7c154ff1642331c51e4/Weather%20app.png)
+![Wea-ter App Screenshot](https://github.com/brxzjunior/Weather/blob/b0353ef776008a76cfc1c7c154ff1642331c51e4/Weather%20app.png)
+
+---
+
+## 📁 Estrutura Básica do Projeto
+
+- `index.html`: interface principal  
+- `css/style.css`: estilos visuais  
+- `js/script.js`: lógica da busca de clima e voz
+
+---
+
+## 🛠️ Começando
+
+1. **Clone o repositório**  
+   ```bash
+   git clone https://github.com/brxzjunior/Weather
+
