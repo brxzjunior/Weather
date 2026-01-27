@@ -20,7 +20,7 @@ Este projeto é construído com:
 - **Web Speech API** – recurso de reconhecimento de voz para buscar cidades por comando de voz
 - **Fetch API** – para requisições em tempo real à API de clima
 - **Netlify** – hospedagem do site  
-(Links e dependências diretamente no repositório) :contentReference[oaicite:0]{index=0}
+(Links e dependências diretamente no repositório) :contentReference
 
 ---
 
@@ -31,7 +31,7 @@ Este projeto é construído com:
 ✔️ Mostra **temperatura** atual  
 ✔️ Mostra **umidade**  
 ✔️ Interface responsiva para dispositivos móveis  
-✔️ Deploy automático com Netlify :contentReference[oaicite:1]{index=1}
+✔️ Deploy automático com Netlify :contentReference
 
 ---
 
@@ -40,7 +40,7 @@ Este projeto é construído com:
 1. O usuário digita ou usa o botão de voz para informar a cidade.  
 2. O app usa a **API de clima** para buscar dados atualizados.  
 3. Os dados são exibidos na tela em tempo real com temperatura e umidade.  
-4. A busca por voz usa a **Web Speech API** para transformar fala em texto automaticamente. :contentReference[oaicite:2]{index=2}
+4. A busca por voz usa a **Web Speech API** para transformar fala em texto automaticamente. 
 
 ---
 
@@ -48,7 +48,7 @@ Este projeto é construído com:
 
 Antes de usar a voz, veja se o navegador suporta a API:  
 👉 https://developer.mozilla.org/en-US/docs/Web/API/SpeechRecognition#browser_compatibility  
-(A página mostra quais navegadores conseguem usar reconhecimento de voz) :contentReference[oaicite:3]{index=3}
+(A página mostra quais navegadores conseguem usar reconhecimento de voz) 
 
 ---
 
