@@ -1,18 +1,33 @@
-Weather 
+# Weather ☁️
 
-## Project Description 
+## Descrição do Projeto
 
-"Wea-ter" is an innovative tool that allows users to track the weather conditions of any city. With an intuitive and user-friendly interface, users can enter the desired city name and obtain detailed information about the current weather, including temperature and humidity.
+O **Wea-ter** é uma ferramenta inovadora que permite aos usuários acompanhar as condições climáticas de qualquer cidade.
 
-The highlight of this project is the voice search functionality, which enables users to simply say the city name instead of typing it. This makes the experience even more convenient and accessible, especially for those who prefer to interact with technology through voice commands. With voice search, users can get instant weather information without the need to type, further simplifying the process.
+Com uma interface intuitiva e fácil de usar, o usuário pode informar o nome da cidade desejada e obter informações detalhadas sobre o clima atual, incluindo **temperatura** e **umidade**.
 
-The Wea-ter repository on GitHub is an open-source project, which means that the developer community can contribute improvements and additional features. Detailed documentation and provided code examples make it easy to understand how Wea-ter works and encourage collaboration.
+O grande diferencial do projeto é a **busca por voz**, que permite ao usuário simplesmente falar o nome da cidade, sem precisar digitar. Isso torna a experiência mais prática e acessível, principalmente para quem prefere interagir com a tecnologia por comandos de voz.
 
-If you are looking for an efficient and user-friendly tool to track the weather conditions of any city, Wea-ter is the perfect choice. Give it a try now and never be caught off guard by the weather again!
+Com a busca por voz, é possível obter informações climáticas instantaneamente, tornando o processo ainda mais rápido e simples.
 
-## API Browser compatibility: https://developer.mozilla.org/en-US/docs/Web/API/SpeechRecognition#browser_compatibility
-## Website: https://wea-ther.netlify.app
+O repositório **Wea-ter** no GitHub é um projeto **open source**, permitindo que a comunidade contribua com melhorias e novas funcionalidades. A documentação e os exemplos de código facilitam o entendimento do funcionamento do projeto e incentivam a colaboração.
 
+Se você procura uma ferramenta eficiente, moderna e fácil de usar para acompanhar o clima de qualquer cidade, o **Wea-ter** é a escolha ideal. Experimente agora e não seja mais pego de surpresa pelo tempo!
 
-## Screen Weather App
-![weather](https://github.com/brxzjunior/Weather/blob/b0353ef776008a76cfc1c7c154ff1642331c51e4/Weather%20app.png)
+---
+
+## 🌐 Compatibilidade da API (Busca por Voz)
+
+👉 https://developer.mozilla.org/en-US/docs/Web/API/SpeechRecognition#browser_compatibility
+
+---
+
+## 🔗 Website
+
+👉 https://wea-ther.netlify.app
+
+---
+
+## 📸 Tela do Aplicativo
+
+![Weather App](https://github.com/brxzjunior/Weather/blob/b0353ef776008a76cfc1c7c154ff1642331c51e4/Weather%20app.png)
